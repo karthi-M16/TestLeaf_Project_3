@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-25T20:48:08 IST" name="LeafTapApplication" finished-at="2026-07-25T20:48:18 IST" duration-ms="10062">
+    <groups>
+    </groups>
+    <test started-at="2026-07-25T20:48:08 IST" name="Module 1" finished-at="2026-07-25T20:48:18 IST" duration-ms="10062">
+      <class name="testcases.VerifyLogIn">
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcases.VerifyLogIn@6973bf95]" started-at="2026-07-25T20:48:08 IST" name="preConditions" finished-at="2026-07-25T20:48:12 IST" duration-ms="3255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="logInVerification()[pri:0, instance:testcases.VerifyLogIn@6973bf95]" started-at="2026-07-25T20:48:12 IST" name="logInVerification" finished-at="2026-07-25T20:48:12 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInVerification -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcases.VerifyLogIn@6973bf95]" started-at="2026-07-25T20:48:12 IST" name="postConditions" finished-at="2026-07-25T20:48:12 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- testcases.VerifyLogIn -->
+      <class name="testcases.VerifyCreateLead">
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcases.VerifyCreateLead@1ed1993a]" started-at="2026-07-25T20:48:08 IST" name="preConditions" finished-at="2026-07-25T20:48:12 IST" duration-ms="3243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="creatingLead()[pri:0, instance:testcases.VerifyCreateLead@1ed1993a]" started-at="2026-07-25T20:48:12 IST" name="creatingLead" finished-at="2026-07-25T20:48:18 IST" duration-ms="6631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingLead -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcases.VerifyCreateLead@1ed1993a]" started-at="2026-07-25T20:48:18 IST" name="postConditions" finished-at="2026-07-25T20:48:18 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- testcases.VerifyCreateLead -->
+    </test> <!-- Module 1 -->
+  </suite> <!-- LeafTapApplication -->
+</testng-results>
